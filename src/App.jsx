@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import imageSongDisc from "/Assets/playerDisc.png"; // disc image
 
 function App() {
+  
   const [songUrl, setsongUrl] = useState("");
   const [songName, setsongName] = useState("...");
   const [mood, setmood] = useState("");
@@ -15,6 +16,7 @@ function App() {
   const [playerthumbnail, setplayerthumbnail] = useState("");
   const DarkmodeClass = ["fatherContainer"];
   const NonDarkModeClass = ["whiteBg"];
+
   const playSong = (songSource, songTitle, playerThumbnail) => {
     setsongName(songTitle);
     setsongUrl(songSource);
@@ -31,6 +33,8 @@ function App() {
         toggleMode ? DarkmodeClass.join(" ") : NonDarkModeClass.join("")
       }
     >
+
+      {/* header */}
       <Header toggleMode={toggleMode} />
       <div className="audioElement">
         <div class="player">
@@ -50,6 +54,7 @@ function App() {
         </div>
       </div>
 
+      {/* songs */}
       <div className="tileContainer">
         {Songs.map((song) => {
           return (
@@ -104,6 +109,8 @@ function App() {
               </li>
             ))}
       </div>
+
+      {/* footer */}
       <div className="footer">
         <b>Made By Subhranshu</b>
         <h5>Switch Mode</h5>
