@@ -4,6 +4,8 @@ import Songtitles from "./components/Songtitles";
 import Moodbuttons from "./components/Moodbuttons";
 import Songs from "./SongDatabase/songs";
 import Header from "./components/Header";
+import imageSongDisc from "/Assets/playerDisc.png"; // disc image
+
 function App() {
   const [songUrl, setsongUrl] = useState("");
   const [songName, setsongName] = useState("...");
@@ -35,7 +37,7 @@ function App() {
           <img
             onClick={toggle}
             className="playerThumbnail"
-            src={playerthumbnail || "/songplayer/Assets/playerDisc.png"}
+            src={playerthumbnail || imageSongDisc}
             alt={songName}
           ></img>
           <div class="nameplayer">
