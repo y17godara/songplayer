@@ -112,44 +112,34 @@ const Songs = [
         "Thumbnail" : "https://i.ytimg.com/vi/Sk-U8ruIQyA/0.jpg",
         "Source" : "https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/y2mate.com%20-%20grandson%20%20Blood%20%20Water%20Official%20Audio.mp3"
     },
-    {
-        "SongID" : 17,
-        "Title" : "Jabra Fan",
-        "Category" : "Happy",
-        "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/10552/thumb-jabra-fan-mp3-song-300.jpg",
-        "Source" : "https://www.dropbox.com/s/a7rx1m8lvrvwbhu/Jabra%20Fan%20%28Hindi%29%20190Kbps%20%282%29.mp3?dl=1"
-    },
-    {
-     "SongID" : 19,
-        "Title" : "Jee Rahe The Hum - Falling in Love",
-        "Category" : "love",
-        "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113734/151267-jee-rahe-the-hum-falling-in-love-mp3-song-300.jpg",
-        "Source" : "https://www.dropbox.com/s/184h93gwltbl8v1/Jee%20Rahe%20The%20Hum%20-%20Falling%20in%20Love.mp3?dl=1"
-    },
-    {
-     "SongID" : 20,
-        "Title" : "Lets Dance Chotu Motu - Yo Yo Honey Singh",
-        "Category" : "energetic",
-        "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113734/151385-lets-dance-chotu-motu-yo-yo-honey-singh-mp3-song-300.jpg",
-        "Source" : "https://www.dropbox.com/s/v16yb2miygnm4iu/Lets%20Dance%20Chotu%20Motu%20-%20Yo%20Yo%20Honey%20Singh.mp3?dl=1"
-    },
-    {
-     "SongID" : 21,
-        "Title" : "Boyfriend Part 1 - Dino James",
-        "Category" : "rap",
-        "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113604/151373-boyfriend-part-1-dino-james-mp3-song-300.jpg",
-        "Source" : "https://www.dropbox.com/s/pdmqleoifffykor/Boyfriend%20Part%201%20-%20Dino%20James.mp3?dl=1"
-    },
-
- 
-    
+    // {
+    //     "SongID" : 17,
+    //     "Title" : "Jabra Fan",
+    //     "Category" : "Happy",
+    //     "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/10552/thumb-jabra-fan-mp3-song-300.jpg",
+    //     "Source" : "https://www.dropbox.com/s/a7rx1m8lvrvwbhu/Jabra%20Fan%20%28Hindi%29%20190Kbps%20%282%29.mp3?dl=1"
+    // },
+    // {
+    //  "SongID" : 19,
+    //     "Title" : "Jee Rahe The Hum - Falling in Love",
+    //     "Category" : "love",
+    //     "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113734/151267-jee-rahe-the-hum-falling-in-love-mp3-song-300.jpg",
+    //     "Source" : "https://www.dropbox.com/s/184h93gwltbl8v1/Jee%20Rahe%20The%20Hum%20-%20Falling%20in%20Love.mp3?dl=1"
+    // },
+    // {
+    //  "SongID" : 20,
+    //     "Title" : "Lets Dance Chotu Motu - Yo Yo Honey Singh",
+    //     "Category" : "energetic",
+    //     "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113734/151385-lets-dance-chotu-motu-yo-yo-honey-singh-mp3-song-300.jpg",
+    //     "Source" : "https://www.dropbox.com/s/v16yb2miygnm4iu/Lets%20Dance%20Chotu%20Motu%20-%20Yo%20Yo%20Honey%20Singh.mp3?dl=1"
+    // },
+    // {
+    //  "SongID" : 21,
+    //     "Title" : "Boyfriend Part 1 - Dino James",
+    //     "Category" : "rap",
+    //     "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113604/151373-boyfriend-part-1-dino-james-mp3-song-300.jpg",
+    //     "Source" : "https://www.dropbox.com/s/pdmqleoifffykor/Boyfriend%20Part%201%20-%20Dino%20James.mp3?dl=1"
+    // },
 ]
 
 export default Songs;
-
-/*
-
-
-    
-
-*/

@@ -20,9 +20,9 @@
 }
 
 .songTilesContainer img {
-  width: 90px;
-  height: 80px;
-  border-radius: 23px;
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
   border: 3px solid #2c3639;
   cursor: pointer;
   box-shadow: 5px 5px 4px rgb(0, 0, 0);
@@ -76,7 +76,6 @@ hr {
 }
 
 .darkSongTitle {
-  text-shadow: 2px 2px 4px #978d8d;
   color: black;
 }
 
