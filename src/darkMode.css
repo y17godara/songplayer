@@ -1,20 +1,19 @@
-.dark {
-    background-color: var(--d-bg-col);
-    color: var(--d-primary-col);
-}
-
-.light {
-    background-color: var(--l-bg-col);
-    color: var(--l-primary-col);
-}
-
-:root{
-    /* light */
-    --l-primary-col:  #6200EE;
-    --d-primary-col:  #BB86FC;
-    --l-variant-col:  #3700B3;
-    --d-variant-col:  #3700B3;
+:root {
+    --primary-col: #6200EE;
+    --variant-col: #3700B3;
     --secondary-col: #03DAC6;
-    --l-bg-col: #FFFFFF;
-    --d-bg-col: #121212;
+    --bg-col: #FFFFFF;
+}
+
+[data-theme='dark'] {
+    --primary-col: #BB86FC;
+    --variant-col: #3700B3;
+    --secondary-col: #03DAC6;
+    --bg-col: #121212;
+}
+
+.app {
+    color: var(--primary-col);
+    background-color: var(--bg-col);
+    transition: all .5s;
 }

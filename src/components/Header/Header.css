@@ -7,24 +7,6 @@
     text-align: center;
 }
 
-.darkheader .btn-github {
-    color: rgb(0, 0, 0);
-}
-
-.darkheader a.icons .btn-contribute {
-    color: rgb(0, 0, 0);
-}
-
-
-.header .btn-github {
-    color: rgb(255, 255, 255);
-}
-
-.header a.icons .btn-contribute {
-    color: rgb(255, 255, 255);
-}
-
-
 .icons {
     display: flex;
     align-items: center;
@@ -33,7 +15,7 @@
 
 .header .logo,
 .darkheader .logo{
-    color: skyblue;
+    /* color: skyblue; */
     font-size: 30px;
 }
 
@@ -41,11 +23,11 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 .darkheader a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
 }

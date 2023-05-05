@@ -6,7 +6,7 @@
 
 .topNavbar{
   padding: 5px 10px 5px 10px;
-  background-color: #003300;
+  /* background-color: #003300; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
   white-space: initial;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 hr {
@@ -92,11 +92,11 @@ hr {
 
 .songTitle {
   text-shadow: 2px 2px 4px #000000;
-  color: white;
+  /* color: white; */
 }
 
 .darkSongTitle {
-  color: black;
+  /* color: black; */
 }
 
 .audioElement audio {
@@ -127,7 +127,7 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
-  color: #0b0b0c;
+  /* color: #0b0b0c; */
   font-size: 20px;
   font-family: "Roboto", sans-serif !important;
 }
@@ -158,7 +158,7 @@ audio::-webkit-media-controls-volume-slider {
 
 .player {
   display: flex;
-  background-color: #deedf8;
+  /* background-color: #deedf8; */
   padding: 15px;
   border-radius: 150px 50px 50px 150px;
 }
@@ -209,12 +209,12 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 .listTiles {
-  background-color: #2c3639;
+  /* background-color: #2c3639; */
   /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(117, 117, 231), 0 0 5px darkblue; */
   /* text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.308), 0 0 25px rgb(255, 0, 179); */
   font-weight: bolder;
   border-radius: 23px;
-  color: white;
+  /* color: white; */
   list-style: none;
   margin: 10px 10px 10px 10px;
   padding: 10px 0 10px 20px;
@@ -224,8 +224,8 @@ audio::-webkit-media-controls-volume-slider {
   list-style: georgian inside
     url("https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/player-icon%20production.png");
   cursor: pointer;
-  background-color: wheat;
-  color: #2c3639;
+  /* background-color: wheat; */
+  /* color: #2c3639; */
   /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46); */
 }
 
@@ -238,15 +238,15 @@ audio::-webkit-media-controls-volume-slider {
 .footer {
   text-align: center;
   padding-bottom: 7px;
-  color: #2c3639;
+  /* color: #2c3639; */
   width: 300px;
   margin: 0 auto 5px;
   border-radius: 23px;
 }
 
 .footer:hover {
-  background-color: wheat;
-  color: black;
+  /* background-color: wheat; */
+  /* color: black; */
 }
 
 audio:hover,
@@ -270,10 +270,10 @@ audio:active {
   margin: 15px;
   height: 40px;
   font-weight: bolder;
-  color: black;
+  /* color: black; */
   font-size: 100;
   border-radius: 50%;
-  background-color: #e8aa42;
+  /* background-color: #e8aa42; */
   cursor: pointer;
   font-family: "Roboto", sans-serif !important;
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); */
@@ -285,10 +285,10 @@ audio:active {
   margin: 15px;
   height: 40px;
   font-weight: bolder;
-  color: white;
+  /* color: white; */
   font-size: 100;
   border-radius: 50%;
-  background-color: black;
+  /* background-color: black; */
   cursor: pointer;
   margin: 10px 20px 10px 20px;
   font-family: "Roboto", sans-serif !important;
@@ -319,7 +319,7 @@ audio:active {
   margin: 7px auto;
   text-align: center;
   background: transparent;
-  color: white;
+  /* color: white; */
   border: none;
   font-weight: bolder;
   border-bottom: 2px solid #e8aa42;
@@ -331,7 +331,7 @@ audio:active {
   margin: 7px auto;
   text-align: center;
   background: transparent;
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   border: none;
   font-weight: bolder;
   border-bottom: 2px solid #e8aa42;
@@ -378,7 +378,7 @@ input:focus {
 
   audio::-webkit-media-controls-current-time-display,
   audio::-webkit-media-controls-time-remaining-display {
-    color: #0b0b0c;
+    /* color: #0b0b0c; */
     font-size: 15px;
     font-family: "Roboto", sans-serif !important;
   }
@@ -411,7 +411,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eee8e4;
+    /* background-color: #eee8e4; */
     padding: 30px;
     border-radius: 50px 50px 50px 50px;
   }
@@ -465,7 +465,7 @@ input:focus {
 
   audio::-webkit-media-controls-current-time-display,
   audio::-webkit-media-controls-time-remaining-display {
-    color: #0b0b0c;
+    /* color: #0b0b0c; */
     font-size: 15px;
     font-family: "Roboto", sans-serif !important;
   }
@@ -496,7 +496,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eee8e4;
+    /* background-color: #eee8e4; */
     padding: 30px;
     border-radius: 50px 50px 50px 50px;
   }

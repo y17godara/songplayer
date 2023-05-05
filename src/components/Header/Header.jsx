@@ -6,11 +6,11 @@ import { FiGithub } from 'react-icons/fi';
 const Header = (props) => {
     return (
         <div className={`${props.toggleMode ? "header flex" : "darkheader flex"}`}>
-            <a className='logo' href='#'>Song Player</a>
+            <a className='logo' href='/'>Song Player</a>
             <div className={`${props.toggleMode ? "header flex" : "darkheader flex"}`}>
-                <a className='button' href='https://about.me/subhranshu'>About Me</a>
-                <a className='icons' href='https://github.com/subhranshuchoudhury/songplayer'><FiGithub className='btn-github icons' /></a>
-                <a className='icons' href='https://github.com/subhranshuchoudhury/songplayer/fork'><BiGitRepoForked className='btn-contribute icons' /></a>
+                <a className='button' href='https://about.me/subhranshu' target="_blank">About Me</a>
+                <a className='icons' href='https://github.com/subhranshuchoudhury/songplayer' target="_blank"><FiGithub className='btn-github icons' /></a>
+                <a className='icons' href='https://github.com/subhranshuchoudhury/songplayer/fork' target="_blank"><BiGitRepoForked className='btn-contribute icons' /></a>
             </div>
         </div>
     );
