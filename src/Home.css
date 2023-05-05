@@ -1,17 +1,22 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 
-/* dark mode */
-.fatherContainer {
-  background-color: #0b0b0c;
-  /* background-image: url("https://www.transparenttextures.com/patterns/xv.png"); */
-  /* background-attachment: fixed; */
-  min-height: 100vh;
+#spaceBar{
+  min-height: 60px;
 }
 
-.whiteBg {
-  background-color: #f9f2ed;
-  /* background-image: url("https://www.transparenttextures.com/patterns/xv.png"); */
-  min-height: 100vh;
+.topNavbar{
+  padding: 5px 10px 5px 10px;
+  background-color: #003300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100% !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.toggleCheckbox{
+
 }
 
 .contentFlex{
@@ -19,6 +24,8 @@
   align-items: center;
   gap: 20px;
   width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-right: auto !important;
   margin-left: auto !important;
 }
@@ -59,7 +66,6 @@
 
 hr {
   /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46); */
-
   border: 2px solid white;
   width: 80%;
   margin: 8px auto;
@@ -152,7 +158,7 @@ audio::-webkit-media-controls-volume-slider {
 
 .player {
   display: flex;
-  background-color: #eee8e4;
+  background-color: #deedf8;
   padding: 15px;
   border-radius: 150px 50px 50px 150px;
 }
@@ -181,8 +187,8 @@ audio::-webkit-media-controls-volume-slider {
   /* -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   transform: scale(1.05); */
-  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(215, 115, 0),
-    0 0 5px rgb(255, 57, 57);
+  /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(215, 115, 0), */
+    /* 0 0 5px rgb(255, 57, 57); */
 }
 
 .playerThumbnail {
@@ -191,7 +197,7 @@ audio::-webkit-media-controls-volume-slider {
   width: 200px;
   height: 200px;
   cursor: pointer;
-  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+  /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue; */
   animation: mymove 20s infinite;
   transition: 0.3s;
 }
@@ -199,11 +205,6 @@ audio::-webkit-media-controls-volume-slider {
 @keyframes mymove {
   100% {
     transform: rotate(360deg);
-  }
-
-  50% {
-    box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179),
-      0 0 5px rgb(235, 46, 46);
   }
 }
 
@@ -342,41 +343,10 @@ input:focus {
 }
 
 .header {
-  /* background-color: white; */
-  margin-bottom: 50px;
+  margin: 0px;
 }
-
-.header a {
-  text-decoration: none;
-  color: wheat;
-  font-weight: bolder;
-  font-size: x-large;
-  display: block;
-  padding: 6px 0 8px 10px;
-  font-family: "Roboto", sans-serif !important;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179),
-    0 0 5px rgb(235, 46, 46);
-}
-
 .darkheader {
-  margin-bottom: 50px;
-}
-
-.darkheader a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: bolder;
-  font-size: x-large;
-  display: block;
-  padding: 6px 0 8px 10px;
-  font-family: "Roboto", sans-serif !important;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179),
-    0 0 5px rgb(235, 46, 46);
-}
-
-.header a:hover {
-  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(96, 85, 241),
-    0 0 5px rgb(49, 46, 235);
+  margin-bottom: 0px;
 }
 
 @media (max-width: 970px) {

@@ -32,5 +32,6 @@ body {
 .contain{
   margin: auto;
   max-width: 1440px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
