@@ -3,14 +3,28 @@
 /* dark mode */
 .fatherContainer {
   background-color: #0b0b0c;
-  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
-  background-attachment: fixed;
+  /* background-image: url("https://www.transparenttextures.com/patterns/xv.png"); */
+  /* background-attachment: fixed; */
   min-height: 100vh;
 }
 
 .whiteBg {
   background-color: #f9f2ed;
-  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/xv.png"); */
+  min-height: 100vh;
+}
+
+.contentFlex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.imageSongs img{
+  width: 40px;
 }
 
 .songTilesContainer {
